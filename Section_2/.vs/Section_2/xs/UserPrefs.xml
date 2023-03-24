@@ -1,16 +1,13 @@
-﻿<Properties StartupConfiguration="{D2633BAE-F6CD-4E66-B7BE-DACC21505DB7}|Default">
+﻿<Properties StartupConfiguration="{79228D37-0DA3-4796-BE32-7A7E231255B0}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Section__1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Section_1/HelloWorld.cs">
-    <Files>
-      <File FileName="Section_1/HelloWorld.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.ItemProperties.Section__2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Section_1" expanded="True">
-            <Node name="Section_1" expanded="True">
-              <Node name="HelloWorld.cs" selected="True" />
+          <Node name="Section_2" expanded="True">
+            <Node name="Section_2" expanded="True">
+              <Node name="StringManipulation.cs" selected="True" />
             </Node>
           </Node>
         </State>

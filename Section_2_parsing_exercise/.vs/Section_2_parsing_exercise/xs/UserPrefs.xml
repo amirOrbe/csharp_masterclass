@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{DD421CFA-D6C2-45B8-ADF5-CC38DB079182}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Section__2__parsing__exercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Section_2_parsing_exercise/section2Exercise.cs">
+    <Files>
+      <File FileName="Section_2_parsing_exercise/section2Exercise.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Section_2_parsing_exercise" expanded="True">
+            <Node name="Section_2_parsing_exercise" expanded="True">
+              <Node name="section2Exercise.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

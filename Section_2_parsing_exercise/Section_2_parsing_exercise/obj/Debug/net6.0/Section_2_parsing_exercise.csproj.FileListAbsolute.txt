@@ -1,0 +1,15 @@
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/bin/Debug/net6.0/Section_2_parsing_exercise
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/bin/Debug/net6.0/Section_2_parsing_exercise.deps.json
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/bin/Debug/net6.0/Section_2_parsing_exercise.runtimeconfig.json
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/bin/Debug/net6.0/Section_2_parsing_exercise.dll
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/bin/Debug/net6.0/Section_2_parsing_exercise.pdb
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/obj/Debug/net6.0/Section_2_parsing_exercise.csproj.AssemblyReference.cache
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/obj/Debug/net6.0/Section_2_parsing_exercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/obj/Debug/net6.0/Section_2_parsing_exercise.AssemblyInfoInputs.cache
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/obj/Debug/net6.0/Section_2_parsing_exercise.AssemblyInfo.cs
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/obj/Debug/net6.0/Section_2_parsing_exercise.csproj.CoreCompileInputs.cache
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/obj/Debug/net6.0/Section_2_parsing_exercise.dll
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/obj/Debug/net6.0/refint/Section_2_parsing_exercise.dll
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/obj/Debug/net6.0/Section_2_parsing_exercise.pdb
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/obj/Debug/net6.0/Section_2_parsing_exercise.genruntimeconfig.cache
+/Users/amir/Projects/Section_2_parsing_exercise/Section_2_parsing_exercise/obj/Debug/net6.0/ref/Section_2_parsing_exercise.dll

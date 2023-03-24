@@ -1,0 +1,15 @@
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/bin/Debug/net6.0/Section2_challenge_2
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/bin/Debug/net6.0/Section2_challenge_2.deps.json
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/bin/Debug/net6.0/Section2_challenge_2.runtimeconfig.json
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/bin/Debug/net6.0/Section2_challenge_2.dll
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/bin/Debug/net6.0/Section2_challenge_2.pdb
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/obj/Debug/net6.0/Section2_challenge_2.csproj.AssemblyReference.cache
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/obj/Debug/net6.0/Section2_challenge_2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/obj/Debug/net6.0/Section2_challenge_2.AssemblyInfoInputs.cache
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/obj/Debug/net6.0/Section2_challenge_2.AssemblyInfo.cs
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/obj/Debug/net6.0/Section2_challenge_2.csproj.CoreCompileInputs.cache
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/obj/Debug/net6.0/Section2_challenge_2.dll
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/obj/Debug/net6.0/refint/Section2_challenge_2.dll
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/obj/Debug/net6.0/Section2_challenge_2.pdb
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/obj/Debug/net6.0/Section2_challenge_2.genruntimeconfig.cache
+/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/obj/Debug/net6.0/ref/Section2_challenge_2.dll

@@ -1,0 +1,15 @@
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/bin/Debug/net6.0/Section_2_DataTypesChallenge
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/bin/Debug/net6.0/Section_2_DataTypesChallenge.deps.json
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/bin/Debug/net6.0/Section_2_DataTypesChallenge.runtimeconfig.json
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/bin/Debug/net6.0/Section_2_DataTypesChallenge.dll
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/bin/Debug/net6.0/Section_2_DataTypesChallenge.pdb
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/obj/Debug/net6.0/Section_2_DataTypesChallenge.csproj.AssemblyReference.cache
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/obj/Debug/net6.0/Section_2_DataTypesChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/obj/Debug/net6.0/Section_2_DataTypesChallenge.AssemblyInfoInputs.cache
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/obj/Debug/net6.0/Section_2_DataTypesChallenge.AssemblyInfo.cs
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/obj/Debug/net6.0/Section_2_DataTypesChallenge.csproj.CoreCompileInputs.cache
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/obj/Debug/net6.0/Section_2_DataTypesChallenge.dll
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/obj/Debug/net6.0/refint/Section_2_DataTypesChallenge.dll
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/obj/Debug/net6.0/Section_2_DataTypesChallenge.pdb
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/obj/Debug/net6.0/Section_2_DataTypesChallenge.genruntimeconfig.cache
+/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/obj/Debug/net6.0/ref/Section_2_DataTypesChallenge.dll
