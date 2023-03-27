@@ -7,7 +7,7 @@
         <State name="__root__">
           <Node name="Section_2" expanded="True">
             <Node name="Section_2" expanded="True">
-              <Node name="StringManipulation.cs" selected="True" />
+              <Node name="constants.cs" selected="True" />
             </Node>
           </Node>
         </State>
