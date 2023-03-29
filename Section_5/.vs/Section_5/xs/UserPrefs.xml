@@ -5,19 +5,20 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Section__5 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Section_5/Challenge_2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Section_5/Challenge_3.cs">
     <Files>
       <File FileName="Section_5/WhileLoop.cs" />
-      <File FileName="Section_5/Challenge_1.cs" Line="34" Column="1" />
-      <File FileName="Section_5/break.cs" Line="27" Column="6" />
+      <File FileName="Section_5/Challenge_1.cs" />
+      <File FileName="Section_5/break.cs" />
       <File FileName="Section_5/Challenge_2.cs" Line="3" Column="22" />
+      <File FileName="Section_5/Challenge_3.cs" Line="26" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Section_5" expanded="True">
             <Node name="Section_5" expanded="True">
-              <Node name="Challenge_2.cs" selected="True" />
+              <Node name="Challenge_3.cs" selected="True" />
             </Node>
           </Node>
         </State>

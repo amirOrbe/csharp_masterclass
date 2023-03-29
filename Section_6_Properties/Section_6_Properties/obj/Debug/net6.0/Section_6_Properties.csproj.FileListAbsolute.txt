@@ -1,0 +1,15 @@
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/obj/Debug/net6.0/Section_6_Properties.csproj.AssemblyReference.cache
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/obj/Debug/net6.0/Section_6_Properties.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/obj/Debug/net6.0/Section_6_Properties.AssemblyInfoInputs.cache
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/obj/Debug/net6.0/Section_6_Properties.AssemblyInfo.cs
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/obj/Debug/net6.0/Section_6_Properties.csproj.CoreCompileInputs.cache
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/bin/Debug/net6.0/Section_6_Properties
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/bin/Debug/net6.0/Section_6_Properties.deps.json
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/bin/Debug/net6.0/Section_6_Properties.runtimeconfig.json
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/bin/Debug/net6.0/Section_6_Properties.dll
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/bin/Debug/net6.0/Section_6_Properties.pdb
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/obj/Debug/net6.0/Section_6_Properties.dll
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/obj/Debug/net6.0/refint/Section_6_Properties.dll
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/obj/Debug/net6.0/Section_6_Properties.pdb
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/obj/Debug/net6.0/Section_6_Properties.genruntimeconfig.cache
+/Users/amir/Projects/Section_6_Properties/Section_6_Properties/obj/Debug/net6.0/ref/Section_6_Properties.dll
