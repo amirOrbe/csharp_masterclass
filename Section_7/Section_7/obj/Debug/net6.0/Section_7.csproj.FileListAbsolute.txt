@@ -1,0 +1,15 @@
+/Users/amir/Projects/Section_7/Section_7/bin/Debug/net6.0/Section_7
+/Users/amir/Projects/Section_7/Section_7/bin/Debug/net6.0/Section_7.deps.json
+/Users/amir/Projects/Section_7/Section_7/bin/Debug/net6.0/Section_7.runtimeconfig.json
+/Users/amir/Projects/Section_7/Section_7/bin/Debug/net6.0/Section_7.dll
+/Users/amir/Projects/Section_7/Section_7/bin/Debug/net6.0/Section_7.pdb
+/Users/amir/Projects/Section_7/Section_7/obj/Debug/net6.0/Section_7.csproj.AssemblyReference.cache
+/Users/amir/Projects/Section_7/Section_7/obj/Debug/net6.0/Section_7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amir/Projects/Section_7/Section_7/obj/Debug/net6.0/Section_7.AssemblyInfoInputs.cache
+/Users/amir/Projects/Section_7/Section_7/obj/Debug/net6.0/Section_7.AssemblyInfo.cs
+/Users/amir/Projects/Section_7/Section_7/obj/Debug/net6.0/Section_7.csproj.CoreCompileInputs.cache
+/Users/amir/Projects/Section_7/Section_7/obj/Debug/net6.0/Section_7.dll
+/Users/amir/Projects/Section_7/Section_7/obj/Debug/net6.0/refint/Section_7.dll
+/Users/amir/Projects/Section_7/Section_7/obj/Debug/net6.0/Section_7.pdb
+/Users/amir/Projects/Section_7/Section_7/obj/Debug/net6.0/Section_7.genruntimeconfig.cache
+/Users/amir/Projects/Section_7/Section_7/obj/Debug/net6.0/ref/Section_7.dll
