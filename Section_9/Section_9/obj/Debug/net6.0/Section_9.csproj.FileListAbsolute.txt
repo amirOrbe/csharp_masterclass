@@ -1,0 +1,15 @@
+/Users/amir/Projects/Section_9/Section_9/bin/Debug/net6.0/Section_9
+/Users/amir/Projects/Section_9/Section_9/bin/Debug/net6.0/Section_9.deps.json
+/Users/amir/Projects/Section_9/Section_9/bin/Debug/net6.0/Section_9.runtimeconfig.json
+/Users/amir/Projects/Section_9/Section_9/bin/Debug/net6.0/Section_9.dll
+/Users/amir/Projects/Section_9/Section_9/bin/Debug/net6.0/Section_9.pdb
+/Users/amir/Projects/Section_9/Section_9/obj/Debug/net6.0/Section_9.csproj.AssemblyReference.cache
+/Users/amir/Projects/Section_9/Section_9/obj/Debug/net6.0/Section_9.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amir/Projects/Section_9/Section_9/obj/Debug/net6.0/Section_9.AssemblyInfoInputs.cache
+/Users/amir/Projects/Section_9/Section_9/obj/Debug/net6.0/Section_9.AssemblyInfo.cs
+/Users/amir/Projects/Section_9/Section_9/obj/Debug/net6.0/Section_9.csproj.CoreCompileInputs.cache
+/Users/amir/Projects/Section_9/Section_9/obj/Debug/net6.0/Section_9.dll
+/Users/amir/Projects/Section_9/Section_9/obj/Debug/net6.0/refint/Section_9.dll
+/Users/amir/Projects/Section_9/Section_9/obj/Debug/net6.0/Section_9.pdb
+/Users/amir/Projects/Section_9/Section_9/obj/Debug/net6.0/Section_9.genruntimeconfig.cache
+/Users/amir/Projects/Section_9/Section_9/obj/Debug/net6.0/ref/Section_9.dll
