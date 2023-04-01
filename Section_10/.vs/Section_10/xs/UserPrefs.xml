@@ -1,6 +1,6 @@
-﻿<Properties StartupConfiguration="{27B424B9-294A-4503-AE57-B3262025EDF9}|Default">
+﻿<Properties StartupConfiguration="{02D9C4F2-3CE7-449B-A245-D308A6881752}|Default">
+  <MonoDevelop.Ide.ItemProperties.Section__10 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Section__9 PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
@@ -10,9 +10,9 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Section_9" expanded="True">
-            <Node name="Section_9" expanded="True">
-              <Node name="Challenge_IEnumerable.cs" selected="True" />
+          <Node name="Section_10" expanded="True">
+            <Node name="Section_10" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
