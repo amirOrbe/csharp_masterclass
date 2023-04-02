@@ -22,7 +22,7 @@ namespace ParsingGame
                 output += c;
                 File.WriteAllText("/Users/amir/Downloads/new_output.txt", output);
             }
-            
+
         }
     }
 }
