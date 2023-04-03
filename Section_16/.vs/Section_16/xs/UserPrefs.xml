@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{6D21A761-3CD9-4F9E-A90B-1F802F8D5F7D}|Default">
+  <MonoDevelop.Ide.ItemProperties.Section__16 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Section_16" expanded="True">
+            <Node name="Section_16" expanded="True">
+              <Node name="SumOfTwoChallenge.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
