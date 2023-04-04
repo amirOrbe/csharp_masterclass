@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "R1ZDPscZurEbJDaIWt45S+/OqPbzVbb27a5sCHefosJxc9p+jTuQ/w2aRN5VmYietkJppGWsFY3bg35achIDuw==",
+  "dgSpecHash": "JGvfj+bbfqLoNGfjYIkejQJuNertlOjQrGRnDZ17Zjh3DqGyxb0ZzY4alOOfkkBYDfIM1vZ4GxQdTq6tz5lvVQ==",
   "success": true,
   "projectFilePath": "/Users/amir/Projects/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge/Section_2_DataTypesChallenge.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/amir/.nuget/packages/stylecop.analyzers/1.2.0-beta.354/stylecop.analyzers.1.2.0-beta.354.nupkg.sha512",
+    "/Users/amir/.nuget/packages/stylecop.analyzers.unstable/1.2.0.354/stylecop.analyzers.unstable.1.2.0.354.nupkg.sha512"
+  ],
   "logs": []
 }

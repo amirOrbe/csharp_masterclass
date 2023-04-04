@@ -1,11 +1,14 @@
-﻿using System;
+﻿// <copyright file="Challenge_1.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
 namespace Challenge1
 {
-    class Challenge_1
-    {
+    using System;
 
-        static void Main(string[] args)
+    internal class Challenge_1
+    {
+        private static void Main(string[] args)
         {
             string name;
             Console.Write("Please enter your name and press enter: ");
@@ -19,6 +22,21 @@ namespace Challenge1
             Console.WriteLine("Trim ---> " + nameTrim);
             Console.WriteLine("Substring ---> " + nameSubstring);
             Console.Read();
+        }
+
+        public override bool Equals(object? obj)
+        {
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        public override string? ToString()
+        {
+            return base.ToString();
         }
     }
 }

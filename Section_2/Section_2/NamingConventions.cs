@@ -1,13 +1,12 @@
 ﻿using System;
 namespace Section_2
 {
-	
-	class NamingConventions
-	{
+    internal class NamingConventions
+    {
         // Method name like CalculateValue
-		// method arguments like firstNumber
-		static void main(string[] args)
-		{
+        // method arguments like firstNumber
+        private static void Main(string[] args)
+        {
             // local Variables like itemCount
 
             // use useControl instead of usrCtr
@@ -16,11 +15,10 @@ namespace Section_2
 
             // for example int cars_engine_1 = 5
 
-
             // Correct
-            string myName;
-            int lastNum;
-            bool isSaved;
+            // string myName;
+            // int lastNum;
+            // bool isSaved;
 
             // Avoid
             // String myName;
@@ -28,9 +26,6 @@ namespace Section_2
             // Boolean isSaved;
 
             // this for see more of naming --> https://www.dofactory.com/csharp-coding-standards
-
-
         }
-
     }
 }

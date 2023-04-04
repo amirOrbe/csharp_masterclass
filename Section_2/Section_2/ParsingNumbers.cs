@@ -2,15 +2,14 @@
 
 namespace Section_2
 {
-    class ParsingNumbers
+    internal class ParsingNumbers
     {
-
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             string myString = "15";
             string mySecondString = "13";
-            int num1 = Int32.Parse(myString);
-            int num2 = Int32.Parse(mySecondString);
+            int num1 = int.Parse(myString);
+            int num2 = int.Parse(mySecondString);
             int resultInt = num1 + num2;
             string result = myString + mySecondString;
 

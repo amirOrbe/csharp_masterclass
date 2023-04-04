@@ -1,26 +1,22 @@
 ﻿<Properties StartupConfiguration="{7D401FB5-5308-434C-9958-7338891979A9}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Section_2_DataTypesChallenge/DataTypeChallenge.cs">
-    <Files>
-      <File FileName="Section_2_DataTypesChallenge/Program.cs" Line="40" Column="2" />
-    </Files>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Section_2_DataTypesChallenge" expanded="True">
-            <Node name="Section_2_DataTypesChallenge" expanded="True" />
+            <Node name="Section_2_DataTypesChallenge" expanded="True">
+              <Node name="DataType.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Section__2__DataTypesChallenge PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Section__2__DataTypesChallenge PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

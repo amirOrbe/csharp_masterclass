@@ -1,15 +1,22 @@
-﻿using System;
+﻿// <copyright file="Challenge_2.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
 namespace Challenge2
 {
-    class Challenge_2
-    {
+    using System;
 
-        static void Main(string[] args)
+    /// <summary>
+    /// Challenge_2.
+    /// </summary>
+    internal class Challenge_2
+    {
+        private static void Main(string[] args)
         {
-            string word;
             Console.Write("Enter a string here: ");
-            word = Console.ReadLine();
+
+            #pragma warning disable
+            string word = Console.ReadLine();
 
             string character;
             Console.Write("Enter the character to search: ");

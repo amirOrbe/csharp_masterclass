@@ -2,26 +2,25 @@
 
 namespace Types
 {
-    class StringManipulation
+    internal class StringManipulation
     {
-
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             int age = 24;
             string name = "Amir";
             string job = "Developer";
 
-            //1.-String concatenation
+            // 1.-String concatenation
             Console.WriteLine("String concatenation -------->");
             Console.WriteLine("Hello my name is " + name + ", I am " + age + " years old");
             Console.Read();
 
-            //2.- String formatting
+            // 2.- String formatting
             // string formatting uses index
-
             Console.WriteLine("String formatting ------------->");
             Console.WriteLine("Hello my name is {0}, I am {1} years old. I am a {2}", name, age, job);
             Console.Read();
+
             // 3.- String interpolation.
             /* string interpolation uses $ at the start which will allows to write our
              * variables like this {variableName}
@@ -45,7 +44,7 @@ typesetting industry. Lorem Ipsum has been the industry's standard dummy text ev
             Console.WriteLine(@"C:\Users\Amir\someurl");
             Console.Read();
 
-            //with varbatim strings event valid escape characters won't work
+            // with varbatim strings event valid escape characters won't work
             Console.WriteLine(@"Test message \n with valid escape character and not work");
             Console.Read();
 

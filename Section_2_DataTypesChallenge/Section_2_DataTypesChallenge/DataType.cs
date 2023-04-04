@@ -1,10 +1,17 @@
-﻿using System;
+﻿// <copyright file="DataType.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
-namespace DataTypeChallenge
+namespace DataType
 {
-    class DataType
+    using System;
+
+    /// <summary>
+    /// Challenge_Datatype.
+    /// </summary>
+    internal class DataType
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             byte myByte = 25;
             Console.WriteLine(myByte);

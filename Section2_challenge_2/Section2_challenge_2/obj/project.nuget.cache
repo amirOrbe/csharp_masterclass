@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yHCh3KBDRwsBFAEwBwDS4FlAhidxfDTh+4WfM4IDXnnRf1EauIJ03vcWUYGqV2vbr46/S/5mlkG6MuoZ21DkaA==",
+  "dgSpecHash": "zPkUVGCwJMe8igfBitydCbb3AWBL4+gb2JZ0Xh+BMCJxJLJbuZu3DZb+/725v245MjQI8+bWqpPsxdPjK1a6Jg==",
   "success": true,
   "projectFilePath": "/Users/amir/Projects/Section2_challenge_2/Section2_challenge_2/Section2_challenge_2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/amir/.nuget/packages/stylecop.analyzers/1.2.0-beta.354/stylecop.analyzers.1.2.0-beta.354.nupkg.sha512",
+    "/Users/amir/.nuget/packages/stylecop.analyzers.unstable/1.2.0.354/stylecop.analyzers.unstable.1.2.0.354.nupkg.sha512"
+  ],
   "logs": []
 }

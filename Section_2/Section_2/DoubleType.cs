@@ -2,10 +2,9 @@
 
 namespace Section_2
 {
-    class DoubleType
+    internal class DoubleType
     {
-
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             // impicit conversion
             int num = 12390532;
@@ -16,6 +15,7 @@ namespace Section_2
 
             double myDouble = 13.37;
             int myInt;
+
             // explicit conversion
             // cast double to int;
             myInt = (int)myDouble;

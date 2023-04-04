@@ -2,10 +2,9 @@
 
 namespace DataTypes
 {
-    class Program
+    internal class Program
     {
-
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             string myname = "Amir";
 

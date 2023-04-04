@@ -2,15 +2,14 @@
 
 namespace Types
 {
-    class DoubleType
+    internal class DoubleType
     {
-
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
-            int age = 15; //variable of type integer
-            Console.WriteLine(age); //output will be 15
+            int age = 15; // variable of type integer
+            Console.WriteLine(age); // output will be 15
             age = 20;
-            Console.WriteLine(age); //output will be 20
+            Console.WriteLine(age); // output will be 20
             Console.Read();
 
             int num1 = 13;
