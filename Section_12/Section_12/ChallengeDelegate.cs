@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace Section_12
 {
     public class Challenge_Delegate
@@ -16,7 +15,6 @@ namespace Section_12
         {
             return a - b;
         }
-
 
         public static float Multiply(float a, float b)
         {

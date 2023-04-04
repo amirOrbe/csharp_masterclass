@@ -5,24 +5,24 @@ namespace Coding.Exercise
 {
     public class Run
     {
-        static Func<float, float, float> Plus = (a, b) => a + b;
-        static Func<float, float, float> Minus = (a, b) => a - b;
-        static Func<float, float, float> Divide = (a, b) => a / b;
-        static Func<float, float, float> Multiply = (a, b) => a * b;
-
-        static public Dictionary<string, Func<float, float, float>> Operators = new Dictionary<string, Func<float, float, float>>();
+        private static readonly Dictionary<string, Func<float, float, float>> Dictionary = new Dictionary<string, Func<float, float, float>>();
+        private static Func<float, float, float> plus = (a, b) => a + b;
+        private static Func<float, float, float> minus = (a, b) => a - b;
+        private static Func<float, float, float> divide = (a, b) => a / b;
+        private static Func<float, float, float> multiply = (a, b) => a * b;
+        private static Dictionary<string, Func<float, float, float>> operators = Dictionary;
 
         static Run()
         {
-            Operators.Add("-", Minus);
-            Operators.Add("+", Plus);
-            Operators.Add("/", Divide);
-            Operators.Add("*", Multiply);
+            operators.Add("-", minus);
+            operators.Add("+", plus);
+            operators.Add("/", divide);
+            operators.Add("*", multiply);
         }
 
-        public static Func<float, float, float> OperationGet(string s)
+        public static Func<float, float, float>? OperationGet(string s)
         {
-            return Operators.ContainsKey(s) ? Operators[s] : null;
+            return operators.ContainsKey(s) ? operators[s] : null;
         }
     }
 }
