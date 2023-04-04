@@ -1,16 +1,15 @@
 ﻿<Properties StartupConfiguration="{B7C4BC26-1024-4DD7-9B11-DC22E30EF1EA}|Default">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Section_2204 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Section 4" expanded="True">
             <Node name="Section 4" expanded="True">
-              <Node name="EnhancementIfStatement.cs" selected="True" />
+              <Node name="Challenge_1.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -19,4 +18,5 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Section_2204 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

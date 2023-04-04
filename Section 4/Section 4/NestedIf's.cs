@@ -6,32 +6,32 @@ using System.Threading.Tasks;
 
 namespace NestedIf
 {
-    class Program
+    internal class Program
     {
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
-            //Some Booleans
-            //Play around with the Values
+            // Some Booleans
+            // Play around with the Values
             bool isRegistered = true;
             string userName = "";
             bool isAdmin = true;
 
-            //User-Input
-            //Try "Amir"
+            // User-Input
+            // Try "Amir"
             Console.WriteLine("Please enter you username");
             userName = Console.ReadLine();
 
-            //Code inside will be executed, if isRegistered is true
+            // Code inside will be executed, if isRegistered is true
             if (isRegistered)
             {
                 Console.WriteLine("User is registered");
 
-                //Code inside will be executed, if userName is not ""
+                // Code inside will be executed, if userName is not ""
                 if (userName != "")
                 {
                     Console.WriteLine($"Hello {userName}");
 
-                    //Code inside will be executed, if userName is "Amir"
+                    // Code inside will be executed, if userName is "Amir"
                     if (isAdmin)
                     {
                         Console.WriteLine("Oh, an Admin logged in. Welcome");
@@ -39,7 +39,7 @@ namespace NestedIf
                 }
             }
 
-            //The same result can be achieved by using logical and
+            // The same result can be achieved by using logical and
             if (isRegistered && userName != "" && isAdmin)
             {
                 Console.WriteLine("User is registered");
@@ -52,7 +52,7 @@ namespace NestedIf
                 }
             }
 
-            //This will keep the Console open
+            // This will keep the Console open
             Console.Read();
         }
     }

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace IfStatementsChallenge2
 {
-    class Challenge_4
+    internal class Challenge_4
     {
-        static int highscore = 300;
-        static string highscorePlayer = "Amir";
+        private static int highscore = 300;
+        private static string highscorePlayer = "Amir";
 
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             var numberRandom = new Random();
             CheckHighscore(numberRandom.Next(140), "Agus");
@@ -30,7 +30,6 @@ namespace IfStatementsChallenge2
 
                 Console.WriteLine("New highscore is " + score);
                 Console.WriteLine("It is now held by " + playerName);
-
             }
             else
             {

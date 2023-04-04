@@ -1,11 +1,10 @@
 ﻿using System;
 
-namespace section4
+namespace Section4
 {
-    class ifElseTryParse
+    internal class IfElseTryParse
     {
-
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("What's the temperature like?");
             string temperature = Console.ReadLine();

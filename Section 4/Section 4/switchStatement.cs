@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Switch_Statement
 {
-    class Program
+    internal class Program
     {
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
-
             int age = 24;
 
             switch (age)
@@ -53,6 +52,7 @@ namespace Switch_Statement
                     Console.WriteLine("username is unknown");
                     break;
             }
+
             Console.Read();
         }
     }

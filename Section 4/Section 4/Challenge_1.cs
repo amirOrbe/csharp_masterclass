@@ -10,4 +10,3 @@ namespace Challenge_1
         }
     }
 }
-

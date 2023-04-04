@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace RegisteringAndLogginIn
 {
-    class RegisteringAndLoggin
+    internal class RegisteringAndLoggin
     {
+        private static string? username;
+        private static string? password;
 
-        static string username;
-        static string password;
-
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             Register();
             Login();
@@ -31,11 +30,11 @@ namespace RegisteringAndLogginIn
         public static void Login()
         {
             Console.WriteLine("Enter your username");
-            string userNameLogin = Console.ReadLine();
+            string? userNameLogin = Console.ReadLine();
             if (username == userNameLogin)
             {
                 Console.WriteLine("Enter your password");
-                string passwordLogin = Console.ReadLine();
+                string? passwordLogin = Console.ReadLine();
                 if (password == passwordLogin)
                 {
                     Console.WriteLine("Login successful");
@@ -50,6 +49,5 @@ namespace RegisteringAndLogginIn
                 Console.WriteLine("Login failed, wrong username.");
             }
         }
-
     }
 }
