@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ds4bROFf2OGiYF0yB64xgFoElNQAh65BPdfCvcIPmmvxBTvtEDyJeU2AuL93PFaaFPwttpY8gDH/bFk1PJvlnQ==",
+  "dgSpecHash": "/pLS5V9hnUKSqmef92DpYWvgi8SmJo0Ec8jl5st1VI1WbN5c9fMQNSyRAtdV47W+zV3n/w/j8YNU4ao0ug1ieA==",
   "success": true,
   "projectFilePath": "/Users/amir/Projects/Section_10_challenge_Parsing_game/Section_10_challenge_Parsing_game/Section_10_challenge_Parsing_game.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/amir/.nuget/packages/stylecop.analyzers/1.2.0-beta.354/stylecop.analyzers.1.2.0-beta.354.nupkg.sha512",
+    "/Users/amir/.nuget/packages/stylecop.analyzers.unstable/1.2.0.354/stylecop.analyzers.unstable.1.2.0.354.nupkg.sha512"
+  ],
   "logs": []
 }
