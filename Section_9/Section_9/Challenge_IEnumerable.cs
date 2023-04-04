@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace Section_9
 {
-    // TODO
-
-    class Contact
+    internal class Contact
     {
-
         public string Name { get; set; }
         public string PhoneNumber { get; set; }
 
@@ -24,14 +21,14 @@ namespace Section_9
         }
     }
 
-    class PhoneBook : IEnumerable<Contact>
+    internal class PhoneBook : IEnumerable<Contact>
     {
 
-        public List<Contact> Contacts;
+        private List<Contact> contacts;
 
         public PhoneBook()
         {
-            Contacts = new List<Contact>{
+            contacts = new List<Contact>{
                 new Contact("Andre", "435797087"),
                 new Contact("Lisa", "435677087"),
                 new Contact("Dine", "3457697087"),
@@ -41,7 +38,7 @@ namespace Section_9
 
         IEnumerator<Contact> IEnumerable<Contact>.GetEnumerator()
         {
-            return Contacts.GetEnumerator();
+            return contacts.GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()
@@ -52,7 +49,7 @@ namespace Section_9
 
     public static class Program
     {
-        static public void Main(string[] args)
+        public static void Main(string[] args)
         {
             PhoneBook MyPhoneBook = new PhoneBook();
 

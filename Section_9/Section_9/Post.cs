@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Section_9
 {
-    class Post
+    internal class Post
     {
         private static int currentPostId;
 
@@ -18,7 +18,7 @@ namespace Section_9
 
         // Default constructor. If a derived class does not invoke a base-
         // class constructor explicitly, the default constructor is called
-        // implicitly. 
+        // implicitly.
         public Post()
         {
             ID = 0;
@@ -51,9 +51,7 @@ namespace Section_9
         // from System.Object.
         public override string ToString()
         {
-            return String.Format("{0} - {1} - by {2}", this.ID, this.Title, this.SendByUsername);
+            return string.Format("{0} - {1} - by {2}", this.ID, this.Title, this.SendByUsername);
         }
-
-
     }
 }

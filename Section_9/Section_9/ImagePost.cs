@@ -7,12 +7,9 @@ using System.Threading.Tasks;
 namespace Section_9
 {
     // ImagePost derives from Post and adds a property (ImageURL) and two constructors
-
-    class ImagePost :Post
+    internal class ImagePost : Post
     {
         public string ImageURL { get; set; }
-
-        public ImagePost() { }
 
         public ImagePost(string title, string sendByUsername, string imageURL, bool isPublic)
         {
@@ -28,7 +25,7 @@ namespace Section_9
 
         public override string ToString()
         {
-            return String.Format("{0} - {1} - {2} - by {3}", this.ID, this.Title, this.ImageURL, this.SendByUsername);
+            return string.Format("{0} - {1} - {2} - by {3}", this.ID, this.Title, this.ImageURL, this.SendByUsername);
         }
 
     }

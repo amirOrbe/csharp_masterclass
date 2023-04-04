@@ -1,10 +1,9 @@
 ﻿using System;
 namespace Section_9
 {
-	class Tv:ElectricalDevice
-	{
-
-        public Tv(bool isOn, string brand):base(isOn, brand)
+    internal class Tv : ElectricalDevice
+    {
+        public Tv(bool isOn, string brand) : base(isOn, brand)
         {
             IsOn = isOn;
             Brand = brand;
@@ -23,4 +22,3 @@ namespace Section_9
         }
     }
 }
-

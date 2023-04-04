@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Section_9
 {
-    class Trainee:Employee
+    internal class Trainee : Employee
     {
         public int WorkingHours { get; set; }
         public int SchoolHours { get; set; }

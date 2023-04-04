@@ -2,12 +2,13 @@
 
 namespace Section_9
 {
-    class Inheritance
+    internal class Inheritance
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Radio myRadio = new Radio(false, "Onkyo");
-            //myRadio.SwitchOn();
+
+            // myRadio.SwitchOn();
             myRadio.ListenRadio();
 
             Tv myTv = new Tv(false, "Panasonic");
@@ -23,13 +24,10 @@ namespace Section_9
             Post post1 = new Post("Thanks for the birthday wishes", true, "Amir Orbe");
             Console.WriteLine(post1.ToString());
 
-            ImagePost imagePost1 = new ImagePost("Check out my new shoes", "Amir Orbe",
-                "https://images.com/shoes", true);
+            ImagePost imagePost1 = new ImagePost("Check out my new shoes", "Amir Orbe", "https://images.com/shoes", true);
 
-            //Challenge_1
-
-            VideoPost videoPost1 = new VideoPost("FailVideo", "Amir Orbe",
-                "https://video.com/failvideo", true, 10);
+            // Challenge_1
+            VideoPost videoPost1 = new VideoPost("FailVideo", "Amir Orbe", "https://video.com/failvideo", true, 10);
 
             Console.WriteLine(imagePost1.ToString());
             Console.WriteLine(videoPost1.ToString());
@@ -40,11 +38,7 @@ namespace Section_9
             videoPost1.Stop();
             Console.ReadLine();
 
-
-
-
             // Challenge_2
-
             Employee amir = new Employee("Amir", "Luis", 400);
 
             amir.Work();
@@ -58,8 +52,6 @@ namespace Section_9
             abner.Learn();
             abner.Work();
             Console.ReadKey();
-
-
         }
     }
 }

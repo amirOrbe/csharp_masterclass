@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Section_9
 {
-    class Employee
+    internal class Employee
     {
         public string Name { get; set; }
         public string FirstName { get; set; }
@@ -35,6 +35,5 @@ namespace Section_9
         {
             Console.WriteLine("I'm having a break");
         }
-
     }
 }

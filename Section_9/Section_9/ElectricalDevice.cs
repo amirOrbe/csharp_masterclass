@@ -1,17 +1,16 @@
 ﻿using System;
 namespace Section_9
 {
-	 class ElectricalDevice
-	{
-
+    internal class ElectricalDevice
+    {
         public bool IsOn { get; set; }
         public string Brand { get; set; }
 
         public ElectricalDevice(bool isOn, string brand)
-		{
-			IsOn = isOn;
-			Brand = brand;
-		}
+        {
+            IsOn = isOn;
+            Brand = brand;
+        }
 
         public void SwitchOn()
         {
@@ -22,7 +21,5 @@ namespace Section_9
         {
             IsOn = false;
         }
-
     }
 }
-

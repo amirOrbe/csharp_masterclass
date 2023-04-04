@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Section_9
 {
-    class VideoPost:Post
+    internal class VideoPost : Post
     {
         // member fields
-        protected bool isPlaying = false;
-        protected int currDuration = 0;
-        Timer timer;
+        private protected bool isPlaying = false;
+        private protected int currDuration = 0;
+        private Timer timer;
 
         // Properties
         protected string VideoURL { get; set; }
@@ -29,7 +29,6 @@ namespace Section_9
             // Property VideoURL is a member of VideoPost, but not of Post
             this.VideoURL = videoURL;
             this.Length = length;
-
         }
 
         public void Play()
@@ -40,12 +39,11 @@ namespace Section_9
                 Console.WriteLine("Playing");
                 timer = new Timer(TimerCallback, null, 0, 1000);
             }
-            
         }
 
-        private void TimerCallback(Object o)
+        private void TimerCallback(object o)
         {
-            if(currDuration < Length)
+            if (currDuration < Length)
             {
                 currDuration++;
                 Console.WriteLine("Video at {0}s", currDuration);
@@ -66,16 +64,13 @@ namespace Section_9
                 currDuration = 0;
                 timer.Dispose();
             }
-            
         }
-
 
         public override string ToString()
         {
-            return String.Format("{0} - {1} - {2} - {3} - by {4}", 
+            return string.Format(
+                "{0} - {1} - {2} - {3} - by {4}",
                 this.ID, this.Title, this.VideoURL, this.Length, this.SendByUsername);
         }
-
-
     }
 }

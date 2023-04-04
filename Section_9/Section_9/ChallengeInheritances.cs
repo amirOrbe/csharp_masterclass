@@ -2,9 +2,8 @@
 
 namespace Section_9
 {
-
     // place for your classes and an interface
-    class Gun : Weapon, IShootable
+    internal class Gun : Weapon, IShootable
     {
         public void Shoot()
         {
@@ -17,15 +16,14 @@ namespace Section_9
         }
     }
 
-    interface IShootable
+    internal interface IShootable
     {
         void Shoot();
     }
 
-    class Weapon
+    internal class Weapon
     {
-
-        public string Name;
+        public string? Name;
 
         public void Label()
         {
@@ -35,7 +33,7 @@ namespace Section_9
 
     public static class Section_9
     {
-        static public void Main(string[] args)
+        public static void Main(string[] args)
         {
             // new instance 
             Gun pist = new Gun();
