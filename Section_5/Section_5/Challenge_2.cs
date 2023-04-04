@@ -10,7 +10,6 @@ namespace Challenge_2
 
             while (true)
             {
-
                 if (i % 3 == 0)
                 {
                     i++;
@@ -19,9 +18,9 @@ namespace Challenge_2
 
                 if (i == 10)
                 {
-
                     break;
                 }
+
                 Console.WriteLine(i++);
             }
         }

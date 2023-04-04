@@ -1,29 +1,22 @@
 ﻿<Properties StartupConfiguration="{380449A6-2251-48EA-96CB-A72600C79C40}|Default">
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Section__5 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Section__5 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Section_5/Challenge_3.cs">
-    <Files>
-      <File FileName="Section_5/WhileLoop.cs" />
-      <File FileName="Section_5/Challenge_1.cs" />
-      <File FileName="Section_5/break.cs" />
-      <File FileName="Section_5/Challenge_2.cs" Line="3" Column="22" />
-      <File FileName="Section_5/Challenge_3.cs" Line="26" Column="30" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Section_5" expanded="True">
             <Node name="Section_5" expanded="True">
-              <Node name="Challenge_3.cs" selected="True" />
+              <Node name="break.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

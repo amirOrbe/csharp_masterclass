@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Section_5
 {
-    class Challenge_3
+    internal class Challenge_3
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            string input = "0";
+            string? input = "0";
             int count = 0;
             int total = 0;
             int current = 0;
@@ -29,7 +29,7 @@ namespace Section_5
                     double average = (double)total / (double)count;
                     Console.WriteLine("The average score of your students is {0}", average);
                 }
-                if (int.TryParse(input, out current) && current> 0 && current < 21)
+                if (int.TryParse(input, out current) && current > 0 && current < 21)
                 {
                     total += current;
                 }
@@ -43,7 +43,6 @@ namespace Section_5
                 }
 
                 count++;
-
             }
 
             Console.ReadLine();
