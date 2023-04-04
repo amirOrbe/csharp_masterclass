@@ -4,10 +4,10 @@ namespace Section_7
 {
     internal class Challenge_2
     {
-        public static void main()
+        public static void Main()
         {
             Console.WriteLine("Enter a value : ");
-            string inputValue = Console.ReadLine();
+            string? inputValue = Console.ReadLine();
 
             Console.WriteLine("Select the datatype for the value : ");
             Console.WriteLine("1 for String");
@@ -17,7 +17,7 @@ namespace Section_7
             Console.WriteLine("Enter : ");
             int inputDataType = int.Parse(Console.ReadLine());
 
-            if(inputDataType >= 1 && inputDataType <= 3)
+            if (inputDataType >= 1 && inputDataType <= 3)
             {
                 ReadValue(inputDataType, inputValue);
             }
@@ -60,10 +60,11 @@ namespace Section_7
 
         public static bool IsALetter(string inputValue)
         {
-            foreach(char letter in inputValue)
+            foreach (char letter in inputValue)
             {
                 return char.IsLetter(letter) ? true : false;
             }
+
             return false;
         }
     }

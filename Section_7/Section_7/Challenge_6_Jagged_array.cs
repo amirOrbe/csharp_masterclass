@@ -6,22 +6,19 @@ using System.Threading.Tasks;
 
 namespace Section_7
 {
-    class Program
+    public class Challenge_6_Jagged_array
     {
         // Create a jagged array, which contains 3 "friends arrays", in which two family members should be stored
         // Introduce family members from different families to each other via console (three introductions)
-
-
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             string[] myFamily = new string[] { "Ivonne", "Bruce" };
 
-
             string[][] friendsAndFamily = new string[][]
             {
-                new string[]{"Saul", "Cynthia"},
-                new string[]{"Amir", "Erendira"},
-                new string[]{"Jatz", "Abner"},
+                new string[] { "Saul", "Cynthia" },
+                new string[] { "Amir", "Erendira" },
+                new string[] { "Jatz", "Abner" },
                 myFamily
             };
 

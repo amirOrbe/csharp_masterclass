@@ -6,17 +6,14 @@ using System.Threading.Tasks;
 
 namespace Section_7
 {
-    class JaggedArray
+    internal class JaggedArray
     {
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
-            //     index                   0    1    2    3  
+            // index                   0    1    2    3
             // normal array of type int : [15],[21],[23],[13]
             //     index                       0                        1                    2
             // jagged array of type int : [array1([15],[13],[5])],[array2([7],[8],[2])],[array3([2],[4],[1])]
-
-
-
             // declare jaggedArray
             int[][] jaggedArray = new int[3][];
 
@@ -43,7 +40,6 @@ namespace Section_7
                 for (int j = 0; j < jaggedArray2[i].Length; j++)
                     Console.WriteLine("{0} ", jaggedArray2[i][j]);
             }
-
 
             Console.ReadKey();
         }

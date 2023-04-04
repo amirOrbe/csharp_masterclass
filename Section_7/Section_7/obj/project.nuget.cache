@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "A5kYU2CS/TRkb9qc5n0YLv0GfpES1zcwp7TXzHERMYZOlzGmUhAk3BioYEW/EfFFYrGPEG5Hs+GhsV4oJnT4xQ==",
+  "dgSpecHash": "/8WlnpMqWoa/OCsaFOOTvVia24wy4Tur/re/5F6Mu8IrIepfzo3C5SZDoRKAAryYjg8hf+RJBq6a9sxBcuCECw==",
   "success": true,
   "projectFilePath": "/Users/amir/Projects/Section_7/Section_7/Section_7.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/amir/.nuget/packages/stylecop.analyzers/1.2.0-beta.354/stylecop.analyzers.1.2.0-beta.354.nupkg.sha512",
+    "/Users/amir/.nuget/packages/stylecop.analyzers.unstable/1.2.0.354/stylecop.analyzers.unstable.1.2.0.354.nupkg.sha512"
+  ],
   "logs": []
 }

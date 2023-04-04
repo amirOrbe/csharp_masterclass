@@ -4,10 +4,8 @@ namespace Coding.Exercise
 {
     public class ListsExercise
     {
-
         public static List<int> Solution()
         {
-
             List<int> evenNumbers = new List<int>();
             for (int i = 100; i <= 170; i++)
             {
@@ -19,6 +17,5 @@ namespace Coding.Exercise
 
             return evenNumbers;
         }
-
     }
 }

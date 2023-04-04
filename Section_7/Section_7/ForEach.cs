@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Section_7
 {
-    class ForEach
+    internal class ForEach
     {
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             int[] nums = new int[10];
 
@@ -33,7 +33,6 @@ namespace Section_7
             // Challenge 👇🏾
             // Create an array with the names of five friends
             // greet all of them with a foreach loop
-
             string[] myFriends = { "Agus", "Luis", "Julito", "Dan", "Peter" };
 
             foreach (string name in myFriends)

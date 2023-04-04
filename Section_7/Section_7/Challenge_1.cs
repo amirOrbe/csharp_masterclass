@@ -32,7 +32,6 @@ namespace Section_7
 
             GetOdd(array);
             GetEven(array);
-
         }
     }
 }

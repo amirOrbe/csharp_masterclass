@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace Section_7
 {
-    class Lists
+    internal class Lists
     {
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             // declaring an ArrayList with undefined amount of object
             ArrayList myArrayList = new ArrayList();
+
             // declaring an ArrayList with defined amount of object
             ArrayList myArrayList2 = new ArrayList(100);
 
@@ -28,6 +29,7 @@ namespace Section_7
             myArrayList.Remove(13);
             myArrayList.Remove(13);
             myArrayList.Remove(13);
+
             // delete element at specific position
             myArrayList.RemoveAt(0);
 

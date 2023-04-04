@@ -7,9 +7,9 @@ using Section_7;
 
 namespace TicTacToeExercise
 {
-    class Program
+    internal class Program
     {
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
 
             Play();
@@ -48,7 +48,7 @@ namespace TicTacToeExercise
 
                     if (board[row, col] == ' ')
                     {
-                        
+
                         board[row, col] = (char)currentPlayer;
 
                         Console.WriteLine(board[row, col]);

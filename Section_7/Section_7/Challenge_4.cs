@@ -6,7 +6,6 @@ namespace Section_7
     {
         public static bool Checker(string[,] board)
         {
-
             for (int i = 0; i < 3; i++)
             {
                 if (board[i, 0] == board[i, 1] && board[i, 1] == board[i, 2])
@@ -23,7 +22,6 @@ namespace Section_7
                 }
             }
 
-
             if ((board[0, 0] == board[1, 1] && board[1, 1] == board[2, 2]) ||
                 (board[0, 2] == board[1, 1] && board[1, 1] == board[2, 0]))
             {
@@ -31,7 +29,6 @@ namespace Section_7
             }
 
             return false;
-
         }
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ArraysAsParameters
 {
-    class Program
+    internal class Program
     {
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             int[] studentsGrades = new int[] { 15, 13, 8, 12, 6, 16 };
             int[] happiness = new int[] { 1, 2, 3, 4, 5 };
@@ -22,8 +22,6 @@ namespace ArraysAsParameters
             }
             Console.ReadLine();
 
-
-
             foreach (int grade in studentsGrades)
             {
                 Console.WriteLine(" {0} ", grade);
@@ -33,7 +31,7 @@ namespace ArraysAsParameters
             Console.ReadKey();
         }
 
-        static double GetAverage(int[] gradesArray)
+        private static double GetAverage(int[] gradesArray)
         {
             int size = gradesArray.Length;
             double average;
@@ -52,7 +50,7 @@ namespace ArraysAsParameters
         // This method should increase the argument given by 2, for each entry.
         // Call this method in the main method and use "happiness" as the argument.
         // Create a foreach loop in the main method to write all values onto the console.
-        static void SunIsShining(int[] x)
+        private static void SunIsShining(int[] x)
         {
             for (int i = 0; i < x.Length; i++)
                 x[i] += 2;
