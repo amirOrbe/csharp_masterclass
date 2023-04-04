@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 
-
 namespace Section_16
 {
     public class Cats_challenge
