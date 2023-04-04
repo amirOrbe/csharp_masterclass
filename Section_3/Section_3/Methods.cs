@@ -2,15 +2,15 @@
 
 namespace Section_3
 {
-    class Program
+    internal class Program
     {
-
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             WriteSomething();
             WriteSomethingSpecific("I am an argument and am called from a method");
             Console.Read();
         }
+
         // access modifier (static) return type method name (parameter1, parameter2)
         public static void WriteSomething()
         {
@@ -21,6 +21,5 @@ namespace Section_3
         {
             Console.WriteLine(myText);
         }
-
     }
 }

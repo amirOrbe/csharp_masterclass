@@ -2,10 +2,9 @@
 
 namespace Section_3
 {
-    class Section3
+    internal class Section3
     {
-
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine(Devide(25, 13));
             Console.Read();
@@ -25,6 +24,5 @@ namespace Section_3
         {
             return num1 / num2;
         }
-
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace OperatorsC
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             int num1 = 5;
             int num2 = 3;
@@ -26,6 +26,7 @@ namespace OperatorsC
             num++;
             Console.WriteLine("num is {0}", num);
             Console.WriteLine("num is {0}", num++);
+
             // pre increment
             Console.WriteLine("num is {0}", ++num);
 
@@ -33,6 +34,7 @@ namespace OperatorsC
             num--;
             Console.WriteLine("num is {0}", num);
             Console.WriteLine("num is {0}", num--);
+
             // pre decrement
             Console.WriteLine("num is {0}", --num);
 
@@ -64,6 +66,7 @@ namespace OperatorsC
 
             // conditional operators
             bool isLowerAndSunny;
+
             // condition1 AND condition2
             isLowerAndSunny = isLower && isSunny;
             Console.WriteLine("result of isLower && isSunny is {0}", isLowerAndSunny);

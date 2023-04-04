@@ -1,10 +1,9 @@
 ﻿using System;
 namespace Section_3
 {
-
-    class TryCatch
+    internal class TryCatch
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Enter a number => ");
             string numberInput = Console.ReadLine();
@@ -18,20 +17,18 @@ namespace Section_3
             }
             catch (Exception)
             {
-                Console.WriteLine("Can't devide by 0"); 
+                Console.WriteLine("Can't devide by 0");
             }
-
 
             try
             {
                 int numberInputAsInt = int.Parse(numberInput);
             }
-
-            catch(FormatException)
+            catch (FormatException)
             {
                 Console.WriteLine("Format exception, please enter the correct type! ");
             }
-            catch(OverflowException)
+            catch (OverflowException)
             {
                 Console.WriteLine("OverFlow exception");
             }
@@ -43,8 +40,8 @@ namespace Section_3
             {
                 Console.WriteLine("This is called anyways :)");
             }
-            Console.ReadKey(); 
+
+            Console.ReadKey();
         }
     }
 }
-

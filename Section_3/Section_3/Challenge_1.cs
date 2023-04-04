@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Section_3
 {
-    class Challenge_1
+    internal class Challenge_1
     {
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             string friend1 = "Agus";
             string friend2 = "Luis";
@@ -20,4 +20,3 @@ namespace Section_3
         }
     }
 }
-
