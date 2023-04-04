@@ -7,17 +7,16 @@ using System.Threading.Tasks;
 namespace Section_10
 {
     // a BMW is a Car
-    class BMW:Car
+    internal class BMW : Car
     {
         private string brand = "BMW";
 
         public string Model { get; set; }
 
-        public BMW(int hp, string color, string model):base(hp, color)
+        public BMW(int hp, string color, string model) : base(hp, color)
         {
             this.Model = model;
         }
-        
 
         public new void ShowDetails()
         {

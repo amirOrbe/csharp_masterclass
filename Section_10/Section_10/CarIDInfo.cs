@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Section_10
 {
-    // Has a 
-
-    class CarIDInfo
+    // Has a
+    internal class CarIDInfo
     {
         public int IDNum { get; set; } = 0;
         public string Owner { get; set; } = "No owner";

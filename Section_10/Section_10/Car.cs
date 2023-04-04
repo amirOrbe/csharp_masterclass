@@ -1,4 +1,4 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Section_10
 {
-    class Car
+    internal class Car
     {
         public int HP { get; set; }
         public string Color { get; set; }
 
         // has a relationship
-        protected CarIDInfo carIDInfo = new CarIDInfo();
+        private protected CarIDInfo carIDInfo = new CarIDInfo();
 
         public void SetCarIDInfo(int idNum, string owner)
         {
@@ -34,7 +34,6 @@ namespace Section_10
         // default constructor
         public Car()
         {
-
         }
 
         public void ShowDetails()
@@ -42,7 +41,7 @@ namespace Section_10
             Console.WriteLine("HP: " + HP + " color:" + Color);
         }
 
-        public  virtual void Repair()
+        public virtual void Repair()
         {
             Console.WriteLine("Car was repaired");
         }

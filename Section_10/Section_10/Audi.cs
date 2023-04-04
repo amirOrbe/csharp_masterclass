@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Section_10
 {
-    class Audi:Car
+    internal class Audi : Car
     {
         private string brand = "Audi";
 
         public string Model { get; set; }
 
-        public Audi(int hp, string color, string model):base(hp, color)
+        public Audi(int hp, string color, string model) : base(hp, color)
         {
             this.Model = model;
         }
 
-        public void ShowDetails()
+        public new void ShowDetails()
         {
             Console.WriteLine("Brand " + brand + " HP: " + HP + " color:" + Color);
         }
