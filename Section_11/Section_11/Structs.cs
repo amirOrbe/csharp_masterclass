@@ -9,43 +9,40 @@ namespace StructsC
 {
     public struct Game
     {
-        public string name;
-        public string developer;
-        public double rating;
-        public string releaseDate;
+        public string Name;
+        public string Developer;
+        public double Rating;
+        public string ReleaseDate;
 
         public Game(string name, string developer, double rating, string releaseDate)
         {
-            this.name = name;
-            this.developer = developer;
-            this.rating = rating;
-            this.releaseDate = releaseDate;
+            this.Name = name;
+            this.Developer = developer;
+            this.Rating = rating;
+            this.ReleaseDate = releaseDate;
         }
 
         public void Display()
         {
-            Console.WriteLine("Game 1's name is :{0}", name);
-            Console.WriteLine("Game 1' was developed by :{0}", developer);
-            Console.WriteLine("Game 1's rating is :{0}", rating);
-            Console.WriteLine("Game 1 was released in :{0}", releaseDate);
+            Console.WriteLine("Game 1's name is :{0}", Name);
+            Console.WriteLine("Game 1' was developed by :{0}", Developer);
+            Console.WriteLine("Game 1's rating is :{0}", Rating);
+            Console.WriteLine("Game 1 was released in :{0}", ReleaseDate);
         }
     }
 
-
-
-    class Program
+    internal class Program
     {
-        static void main(string[] args)
+        private static void Main(string[] args)
         {
             Game game1;
 
-            game1.name = "Pokemon Go";
-            game1.developer = "Niantic";
-            game1.rating = 3.5;
-            game1.releaseDate = "01.07.2016";
+            game1.Name = "Pokemon Go";
+            game1.Developer = "Niantic";
+            game1.Rating = 3.5;
+            game1.ReleaseDate = "01.07.2016";
 
             game1.Display();
-
 
             Console.ReadKey();
         }

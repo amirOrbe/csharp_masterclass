@@ -2,7 +2,6 @@
 
 namespace Section_11
 {
-
     public class MatchChallenge
     {
         public static double ConvertToRadians(double angle)
@@ -14,7 +13,7 @@ namespace Section_11
         {
             int angle;
 
-            if (Int32.TryParse(line, out angle) == false || (angle < 0 || angle > 180))
+            if (int.TryParse(line, out angle) == false || (angle < 0 || angle > 180))
             {
                 System.Console.WriteLine("Check the input!");
                 return;
