@@ -11,7 +11,7 @@ namespace Section_6
     // create two objects of type Human.
 
     // this class is a blueprint for a datatype 
-    class Human
+    internal class Human
     {
         // member variable
         private string firstName;
@@ -59,13 +59,13 @@ namespace Section_6
             this.age = age;
         }
 
-
-
         // member method
         public void IntroduceMyself()
         {
             if (age != 0 && lastName != null && eyeColor != null && firstName != null)
+            {
                 Console.WriteLine("Hi, I'm {0} {1} and {2} years old. My eye color is {3}", firstName, lastName, age, eyeColor);
+            }
             else if (age != 0 && lastName != null && firstName != null)
             {
                 Console.WriteLine("Hi, I'm {0} {1} and {2} years old.", firstName, lastName, age);

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Members
 {
-    class Section_6
+    internal class Section_6
     {
         // member - private field
         private string memberName;
@@ -15,7 +15,7 @@ namespace Members
         private int salary;
 
         // member - public field
-        public int age;
+        private int age;
 
         // member - property - exposes jobTitle safely - properties start with a capital letter
         public string JobTitle
@@ -66,6 +66,5 @@ namespace Members
             Console.WriteLine("Deconstruction of Members object");
             Debug.Write("Destruction of Members object");
         }
-
     }
 }

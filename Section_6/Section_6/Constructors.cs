@@ -5,13 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Section_6;
 
-namespace _0602Class
+namespace Constructors
 {
-    class Constructors
+    internal class Constructors
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-
             Human amir = new Human(24, "Amir", "Orbe", "Pink");
             Human ere = new Human(24, "Erendira", "Sanchez", "Beautiful");
             amir.IntroduceOnceself();

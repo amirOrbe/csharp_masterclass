@@ -1,12 +1,11 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Security.Cryptography;
-//using System.Text;
-//using System.Threading.Tasks;
-
-//namespace Section_6
-//{
+﻿// using System;
+// using System.Collections.Generic;
+// using System.Linq;
+// using System.Security.Cryptography;
+// using System.Text;
+// using System.Threading.Tasks;
+// namespace Section_6
+// s{
 //    class Program
 //    {
 //        static void main(string[] args)
@@ -17,14 +16,10 @@
 //            fietz.IntroduceMyself();
 //            Human leia = new Human(1, "Leia", "Bitch XD", "brown");
 //            leia.IntroduceMyself();
-
-
 //            Console.ReadKey();
 //        }
 //    }
-//}
-
-
+// }
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,9 +29,9 @@ using Section_6;
 
 namespace Classes___Basics
 {
-    class Section_6
+    internal class Section_6
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Human amir = new Human("amir", "amir", "black", 24);
             amir.IntroduceMyself();

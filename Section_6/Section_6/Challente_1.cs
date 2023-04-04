@@ -4,37 +4,33 @@ namespace Challenge_1
 {
     public class Phone
     {
-        public string Company;
-        public string Model;
-        public string ReleaseDay;
-
-
+        private string company;
+        private string model;
+        private string releaseDay;
         public Phone()
         {
-            this.Company = "unknown";
-            this.Model = "unknown";
-            this.ReleaseDay = "unknown";
+            this.company = "unknown";
+            this.model = "unknown";
+            this.releaseDay = "unknown";
         }
 
         public Phone(string company, string model)
         {
-            this.Company = company;
-            this.Model = model;
-            this.ReleaseDay = "unknown";
+            this.company = company;
+            this.model = model;
+            this.releaseDay = "unknown";
         }
 
         public Phone(string company, string model, string releaseDay)
         {
-            this.Company = company;
-            this.Model = model;
-            this.ReleaseDay = releaseDay;
+            this.company = company;
+            this.model = model;
+            this.releaseDay = releaseDay;
         }
 
         public void Introduce()
         {
-            Console.WriteLine("It is {0} created by {1}. It was released {2}.", Model, Company, ReleaseDay);
+            Console.WriteLine("It is {0} created by {1}. It was released {2}.", model, company, releaseDay);
         }
-
     }
-
 }
