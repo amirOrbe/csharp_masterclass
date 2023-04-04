@@ -2,7 +2,7 @@
 
 namespace HelloWorld
 {
-    class MainClass
+    internal class MainClass
     {
         public static void Main(string[] args)
         {
